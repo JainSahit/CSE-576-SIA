@@ -1,16 +1,16 @@
-Load this shared foler in your Google Drive: https://drive.google.com/drive/folders/1_uQ3pbLPBRF4JOqKTFp4L5pd3SFMl3KO?usp=sharing
+Load this shared foler in your Google Drive: https://drive.google.com/drive/folders/1PMRCwBVrFdMJkU197oKtgOIKDGmYbtQC?usp=sharing
 
 NOTE: Keep the shared folder 'man_mihit_project' under 'My Drive' in your drive.
 
 Google Colab Link:
 
-sia_roberta_model_training.ipynb: https://colab.research.google.com/drive/1gpw5VIln8IUbP1KSBw5y8a0ek5nUt5fy?usp=sharing
+sia_roberta_model_training.ipynb: https://colab.research.google.com/drive/1TxPqEvgNCn4Vbx8dkX_TsticlzovAk3r?usp=sharing
 
 Model_Evaluation_Baseline_And_SIA_Model.ipynb: https://colab.research.google.com/drive/1hzeuaYl170Hmj5itR4G4uNA2cTbF5RTa?usp=sharing
 
 Use sia_roberta_model_training.ipynb to train SIA model on QASC dataset or directly use the model that we have trained to re-rank passages using Model_Evaluation_Baseline_And_SIA_Model.ipynb.
 
-SIA model_path: 
+SIA model_path: '/content/drive/My Drive/phase2_experiments/SIA_EXPERIMENT/model_QASCrobertabase_fulltraindataset_10epochs'
 
 RESULTS:
 
