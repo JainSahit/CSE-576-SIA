@@ -2,7 +2,7 @@ Load this drive on your Google drive:
 https://drive.google.com/drive/u/1/folders/17SpWmNSl9dcbyqUFpdvnYlHj1EYXwHju
 
 
-NOTE: Keep the shared folder 'Sahit' under 'My Drive' in your drive.
+NOTE: Keep the shared folder 'NLP' under 'My Drive' in your drive.
 
 Google Colab Link:
 
@@ -27,7 +27,7 @@ RESULTS:
     MAP:        0.363
     MRR:        0.370
     
-  SIA+BM25: 
+  SIA: 
   
     P@5:        0.023
     P@10:       0.043
