@@ -6,12 +6,12 @@ NOTE: Keep the shared folder 'NLP' under 'My Drive' in your drive.
 
 Google Colab Link:
 
-SIA Model Training with Roberta.ipynb:          https://colab.research.google.com/drive/1q0VuVG-fwrMybA902xEK-X1E2wG3gmn2?authuser=1#scrollTo=r_yAaWrd-_pA
+gouthami_ sia_roberta.ipynb:          https://colab.research.google.com/drive/1fK3ex1krRYM8Zsndp_gouvZCzvmw_IQ8?usp=sharingauthuser=1#scrollTo=r_yAaWrd-_pA
 
-Evaluation Metric with BM25 and SIA .ipynb: https://colab.research.google.com/drive/1SY375l0eDkPOvRR0CG93u9nnV2Bt1rL7?authuser=1#scrollTo=ZNsvbMzdeych
+1218506822_EvaluationMetrics_BM25_SIA.ipynb: https://colab.research.google.com/drive/1IqGMctYH6Zl48CL-DSXZkB7jS75ZB_ru?usp=sharing
 
 
-Use SIA Model Training with Roberta.ipynb to train SIA model on WikiPassageQA or directly use the model that we have trained to re-rank passages using Evaluation Metric with BM25 and SIA.ipynb.
+Use gouthami_ sia_roberta.ipynb to train SIA model on HOTPOTQA or directly use the model that we have trained to re-rank passages using 1218506822_EvaluationMetrics_BM25_SIA.ipynb.
 
 SIA model_path= '/content/drive/MyDrive/NLP/sia_experiment/SIA_OpenBookQA'
 
