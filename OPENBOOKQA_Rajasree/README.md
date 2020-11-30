@@ -24,8 +24,8 @@ RESULTS:
     Recall@5:   0.467
     Recall@10:  0.526
     Recall@20:  0.599
-    MAP:        0.363
-    MRR:        0.370
+    MAP:        0.370
+    MRR:        0.363
     
   SIA: 
   
