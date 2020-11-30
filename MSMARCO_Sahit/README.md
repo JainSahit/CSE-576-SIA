@@ -8,9 +8,9 @@ Google Colab Link:
 
 sia roberta.ipnyb:          https://colab.research.google.com/drive/1ZSv3LMCOu86VC4qAE-QSGF3_8bwkIzr2?usp=sharing
 
-final_system.ipynb: https://colab.research.google.com/drive/1C560iSR5tM2o3BD8T-S3NP2LYp6mgPMa?usp=sharing
+Evaluation.ipynb: https://colab.research.google.com/drive/1C560iSR5tM2o3BD8T-S3NP2LYp6mgPMa?usp=sharing
 
-Use sia.ipynb to train SIA model on WikiPassageQA or directly use the model that we have trained to re-rank passages using final_system.ipynb.
+Use sia roberta.ipynb to train SIA model on WikiPassageQA or directly use the model that we have trained to re-rank passages using Evaluation.ipynb.
 
 SIA model_path= '/content/drive/My Drive/Sahit/work/project_nlp/sia_experiment/modelMSMARCO/pytorch_modelTrained'
 
