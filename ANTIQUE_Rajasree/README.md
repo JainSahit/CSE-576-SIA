@@ -1,35 +1,38 @@
 Load this drive on your Google drive:
-https://drive.google.com/drive/folders/18OiVDNPf9avJ9I5PSOZkhbsjJEhbubQ-?usp=sharing
+https://drive.google.com/drive/u/1/folders/17SpWmNSl9dcbyqUFpdvnYlHj1EYXwHju
+
+
 NOTE: Keep the shared folder 'Sahit' under 'My Drive' in your drive.
 
 Google Colab Link:
 
-sia roberta.ipnyb:          https://colab.research.google.com/drive/1ZSv3LMCOu86VC4qAE-QSGF3_8bwkIzr2?usp=sharing
+SIA Model Training with Roberta.ipynb:          https://colab.research.google.com/drive/1q0VuVG-fwrMybA902xEK-X1E2wG3gmn2?authuser=1#scrollTo=r_yAaWrd-_pA
 
-final_system.ipynb: https://colab.research.google.com/drive/1C560iSR5tM2o3BD8T-S3NP2LYp6mgPMa?usp=sharing
+Evaluation Metric with BM25 and SIA .ipynb: https://colab.research.google.com/drive/1SY375l0eDkPOvRR0CG93u9nnV2Bt1rL7?authuser=1#scrollTo=ZNsvbMzdeych
 
-Use sia.ipynb to train SIA model on WikiPassageQA or directly use the model that we have trained to re-rank passages using final_system.ipynb.
 
-SIA model_path= '/content/drive/My Drive/Sahit/work/project_nlp/sia_experiment/modelMSMARCO/pytorch_modelTrained'
+Use SIA Model Training with Roberta.ipynb to train SIA model on WikiPassageQA or directly use the model that we have trained to re-rank passages using Evaluation Metric with BM25 and SIA.ipynb.
+
+SIA model_path= '/content/drive/MyDrive/NLP/sia_experiment/SIA_OpenBookQA'
 
 RESULTS:
 
   BM25:
   
-    P@5:        0.0611  
-    P@10:       0.0408
-    Recall@5:   0.2944
-    Recall@10:  0.3916
-    Recall@20:  0.4842
-    MAP:        0.1937
-    MRR:        0.1974
+    P@5:        0.127  
+    P@10:       0.072
+    Recall@5:   0.467
+    Recall@10:  0.526
+    Recall@20:  0.599
+    MAP:        0.363
+    MRR:        0.370
     
   SIA+BM25: 
   
-    P@5:        0.0645
-    P@10:       0.0423
-    Recall@5:   0.3103
-    Recall@10:  0.4058
-    Recall@20:  0.4981
-    MAP:        0.2027
-    MRR:        0.2070
+    P@5:        0.023
+    P@10:       0.043
+    Recall@5:   0.094
+    Recall@10:  0.317
+    Recall@20:  0.549
+    MAP:        0.081
+    MRR:        0.072
