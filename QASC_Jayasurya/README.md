@@ -1,6 +1,6 @@
 Load this shared foler in your Google Drive: https://drive.google.com/drive/folders/1PMRCwBVrFdMJkU197oKtgOIKDGmYbtQC?usp=sharing
 
-NOTE: Keep the shared folder 'man_mihit_project' under 'My Drive' in your drive.
+NOTE: Keep the shared folder 'phase2_experiment' under 'My Drive' in your drive.
 
 Google Colab Link:
 
@@ -24,7 +24,7 @@ RESULTS:
     MAP:        0.6130
     MRR:        0.6123
     
-  SIA+BM25: 
+  SIA: 
   
     P@5:        0.1704
     P@10:       0.0917
